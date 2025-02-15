@@ -85,9 +85,60 @@
 
 
 #WRITE ABOVE TUPLE IN LIST AND SORT THEM FROM A TO D
-list=["A","B","A","E","B","A","A","C"]
-list.sort()
-print(list)
+# list=["A","B","A","E","B","A","A","C"]
+# list.sort()
+# print(list)
+
+
+
+#STORE THE VALUES IN THE DICTIONARIES
+
+# dict={
+#     "cat":"an animal",
+#     "table":["a piece of furniture","list of facts and figures"],
+#     1911:("the lucky number","most special number")
+# }
+# print(dict)
+
+#QN
+# subjects={"python","c","java","python","c++","python"}  #set
+# print(len(subjects))
+
+#CREATE AN EMPTY DICTIONARY AND ADD UPTO 3 SUBJECTS WITH MARKS ONE BY ONE
+# marks={}
+# sub1={"DS":99}
+# sub2={"OS":100}
+# sub3={"DSA":98}
+# marks.update(sub1)
+# print(marks)
+# marks.update(sub2)
+# print(marks)
+# marks.update(sub3)
+# print(marks)
+
+#now from user inputs
+# marks2={} #dictionary
+# print(type(marks2))
+# sub1=int(input("Enter marks for OS: "))
+# marks2.update({"OS":sub1})
+# print(marks2)
+# sub2=int(input("Enter marks for DSA: "))
+# marks2.update({"DSA":sub2})
+# print(marks2)
+# sub3=int(input("Enter marks for OS: "))
+# marks2.update({"Java":sub3})
+# print(marks2)
+
+
+#STORE 9 AND 9.0 IN THE SAME SET
+# collection={9,9.0}
+# print(type(collection))
+# collection2={
+#     ("float",9.0),
+#     ("int",9)
+# }
+# print(collection2)
+
 
 
 

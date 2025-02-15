@@ -18,15 +18,15 @@
 
 
 #NESTED DICTIONARIES
-dicts={
-    "Name":"Ajay",
-    "Marks":{
-        "AdvJava":100,
-        "NetProg":99,
-        "DS":98
-    },
-    "Interests":["Football","Games","Programming"],
-}
+# dicts={
+#     "Name":"Ajay",
+#     "Marks":{
+#         "AdvJava":100,
+#         "NetProg":99,
+#         "DS":98
+#     },
+#     "Interests":["Football","Games","Programming"],
+# }
 # print(dicts["Marks"])
 # print(dicts["Marks"]["NetProg"])
 # print(len(dicts)) 
@@ -56,4 +56,7 @@ dicts={
 data1={1,6,4,7}
 data2={4,1,8,2}
 res=data1.union(data2)
+res2=data1.intersection(data2)
 print(res)
+print(res2)
+print(data1.pop())
