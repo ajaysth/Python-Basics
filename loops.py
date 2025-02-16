@@ -22,11 +22,43 @@
 #     i+=1
 
 
-j=1
-while(j<=10):
-    if(j==4):
-        j+=1
-        continue
-    else:
-        print(j)
-    j+=1
+# j=1
+# while(j<=10):
+#     if(j==4):
+#         j+=1
+#         continue
+#     else:
+#         print(j)
+#     j+=1
+
+
+
+#FOR LOOP
+
+# el=[3,4,2,33,44]
+# for e in el:
+#     print(e)
+
+
+# string="AjayShrestha"
+# for el in string:
+#     print(el)
+
+# string="AjayShrestha"
+# for el in string:
+#     if(el=="S"):
+#         print("S found")
+#         break
+# else:
+#     print("Ended")    
+
+
+#RANGE(a sequence of a number):range(start,stop,step)
+# for el in range(6,18,3):
+#     print(el)
+    
+
+#PASS: null statement, used as placeholder for future code
+for i in range(3):
+    pass
+print("Some works done")
