@@ -47,4 +47,4 @@ def Example(list,index):
         return
     print(list[index])
     Example(list,index+1)
-Example(hero,0)    
+Example(hero,0)      
